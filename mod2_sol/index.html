@@ -1,121 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
- <meta charset="utf-8">
- <title> Module 2 solution</title>
- <style>
- * {
- 	box-sizing; border-box;
- 	margin:0;
- 	padding:0;
- }
- 	#h {
- 		text-align:center;
- 		margin-bottom: 5px;
- 		font-family:Arial;
- 	}
- 	#h1 {
- 		text-align:right;
- 		background-color: pink;
- 		padding-bottom:10px;
- 		padding-right:20px;
- 		padding-left:20px;
- 		border-bottom:3px solid black;
-        border-left:3px solid black;
-        height:18px; width:100px; 
-        position:relative;
-        bottom: 9px; left: 67px;
-        font-family:Arial;
- 	}
- 	#h2 {
- 		text-align:right;
- 		background-color: red;
- 		padding-bottom:10px;
- 		padding-right:30px;
- 		border-bottom:3px solid black;
-        border-left:3px solid black;
-        height:18px; width:100px; 
-        position:relative;
-        bottom: 10px; left: 263px;
- 		color: white;
- 		border-bottom: 3px solid black;
-        font-family:Arial;
- 	}
- 	#h3 {
- 		text-align:right;
- 		font-family:Arial;
- 		background-color: yellow;
- 		padding-bottom:10px;
- 		padding-right:20px;
- 		border-bottom:3px solid black;
-        border-left:3px solid black;
-        height:18px; width:100px; 
-        position:relative;
-        bottom: 10px; left: 270px;
- 		border:3px solid black;
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
 
- 	}
- 	#p1 {
- 		background-color: gray;
- 		font-style: Helvetica;
- 		padding: 10px;
- 		border:3px solid black;
- 		height: 160px;
- 		width: 380px;
-        float: left;
-        clear:left;
- 	    font-family:Arial;
- 	    position:relative;
- 	    right:5px;
- 	    left: 5px;
- 	}
- 	#p2 {
- 		background-color: gray;
- 		padding: 10px;
- 		border:3px solid black;
- 		height: 160px;
- 		width: 380px;
- 		float: right;
- 		font-family:Arial;
- 		position:relative;
- 	    right:5px;
- 	    left: 5px;
-    
- 	}
- 	#p3 {
- 		background-color: gray;
- 		padding: 10px;
- 		border:3px solid black;
- 		height: 160px;
- 		width: 380px;
- 		float: right;
-        font-family:Arial;
-        position:relative;
- 	    right:5px;
- 	    left: 5px;
- 	}
+    </title>
+    <link rel="stylesheet" href="style.css">
 
-/***********Large Devices******************/
-
-/***********Medium Devices******************/ 	
- </style>
+</head>
 <body>
-	<h1 id=h>Our Menu</h1>
-	
-	<div id=p1>
-	  <h2 id=h1>Chicken</h2>
-	  <div>Need a new go-to dinner? These quick chicken dinners recipes are perfect for a stress-free weeknight meal, and make enough so that you can have leftovers for lunch</div>
+    <h1>Our Menu</h1>
+    <div class="container-fluid">
+        <div class="row px-2">
+            <div class="col-lg-4 col-md-6 parentDiv">
+            <div class="childDiv">
+            <div class="divspan"><span id="span1">Chicken</span></div>
+            <div>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+            </div>
+
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 parentDiv">
+            <div class="childDiv">
+            <div class="divspan"><span id="span2">Beaf</span></div>
+            <div>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+            </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 parentDiv">
+            <div class="childDiv">
+            <div class="divspan"><span id="span3">Sushi</span></div>
+            <div>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+            </div>
+
+            </div>
+            </div>
+        </div>
     </div>
-    
-    <div id=p2>
-	  <h2 id=h2>Beef</h2>
-	  <div>Need a new go-to dinner? These quick chicken dinners recipes are perfect for a stress-free weeknight meal, and make enough so that you can have leftovers for lunch</div>
-	</div>
-
-	<div id=p3>
-	  <h2 id=h3>Sushi</h2>
-	  <div>Need a new go-to dinner? These quick chicken dinners recipes are perfect for a stress-free weeknight meal, and make enough so that you can have leftovers for lunch.</div>
-	</div>
-
 </body>
-</html>
